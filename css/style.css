@@ -272,7 +272,7 @@ body:has(#Contact:target) .Contact-link::before {
   border-radius: 50%;
   background-image: linear-gradient(
     to right,
-    #ce1212 0% 50%,
+    #ce1212  50%,
     transparent 50% 100%
   );
   display: flex;
@@ -986,6 +986,9 @@ body:has(#Contact:target) .Contact-link::before {
 @media screen and (max-width: 1200px) {
   .info-inputs .F-row .in {
     width: 95%;
+  }
+  .contacts{
+    display: none;
   }
 }
 @media screen and (max-width: 900px) {
